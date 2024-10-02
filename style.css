@@ -19,6 +19,9 @@ header {
 }
 .primeira{
     display: flex;
+    justify-content: space-between;
+   
+    
 }
 .primeira img{
     width: 40rem;
