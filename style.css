@@ -5,24 +5,27 @@ body{
     font-family: "Raleway", sans-serif;;
 }
 :root{
-    --azul-marinho: #010b40;
-    --azul-escuro: #1c418c;
-    --azul: #0367a6;
-    --amarelo: #f2da5e;
-    --marrom: #a65729;
+    --azul-escuro1: #131f59;
+    --azul-medio: #255396;
+    --azul-mar: #2880c3;
+    --azul-claro: #59a8d0;
+    --caramelo: #dc9451;
+    --bege-claro: #ede4cd;
+    --marrom-acobreado: #b63d1f;
+    --castanho-claro: #843a2a;
+    --castanho-escuro: #290c0c;
 }
 header {
-    background-color: var(--azul);
+    background-color: var(--azul-mar);
     height: 6rem;
     display: flex;
     justify-content: center;
 }
 .primeira{
     display: flex;
-    justify-content: space-between;
-   
-    
+    gap: 5rem;
 }
 .primeira img{
     width: 40rem;
 }
+
