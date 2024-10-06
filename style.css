@@ -16,7 +16,7 @@ body{
     --castanho-escuro: #290c0c;
 }
 header {
-    background-color: var(--azul-mar);
+    background-color: var(--azul-claro);
     height: 6rem;
     display: flex;
     justify-content: center;
@@ -28,4 +28,39 @@ header {
 .primeira img{
     width: 40rem;
 }
+.primeira p{
+    font-size: 25px;
+}
+.segunda{
+    display: flex;
+    background-color: var(--caramelo);
+    height: 25rem;
+    align-items: center;
+    
+}
+.segunda img{
+    width: 20rem;
+    height: 25rem;
+}
+.segunda p{
+    font-size: 25px;
+    max-width: 50rem; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.terceira img{
+    height: 25rem;
+    width: 31rem;
+}
+.terceira{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 
+}
